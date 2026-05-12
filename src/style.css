@@ -8,6 +8,7 @@
     --text: white;
     --text-alt: black;
     --accent: #C674B2;
+    --background: black;
 
     color: var(--text);
 }
@@ -37,4 +38,6 @@ button {
 
 body {
   margin: 0;
+
+  background: var(--background);
 }
