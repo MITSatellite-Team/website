@@ -51,6 +51,8 @@ button {
 
     background: var(--accent);
     color: var(--text-alt);
+
+    cursor: pointer;
 }
 
 .material-symbols-sharp {
