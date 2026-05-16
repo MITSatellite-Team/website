@@ -1,5 +1,6 @@
 <script lang="ts" setup>
-
+import LeonirdImg from '../assets/leonird.jpg'
+import EtherImg from '../assets/ether.jpg'
 </script>
 
 <template>
@@ -19,7 +20,41 @@
         </div>
     </main>
 
-    <p>More here!</p>
+    <div style="height: 20px;"></div>
+
+    <div class="content">
+        <h2>Active Projects</h2>
+
+        <div class="project">
+            <div class="project-text">
+                <div class="project-top">
+                    <h3 class="project-title">LEONIRD I/II</h3>
+                    <span class="project-flavor">CubeSat</span>
+                </div>
+
+                <p class="project-description">Two-phase CubeSat program centered on solar occultation trace-gas mapping, with an outreach component.</p>
+
+                <RouterLink to="/leonird" class="project-learn-more">Learn More <span class="material-symbols-sharp">keyboard_arrow_right</span></RouterLink>
+            </div>
+
+            <img class="project-image" :src="LeonirdImg" />
+        </div>
+
+        <div class="project">
+            <div class="project-text">
+                <div class="project-top">
+                    <h3 class="project-title">ETHER</h3>
+                    <span class="project-flavor">Payload</span>
+                </div>
+
+                <p class="project-description">Cryogenic propellant mixing payload aimed at reducing temperature stratification inside cryogenic tanks and enabling near zero boil-off.</p>
+            
+                <RouterLink to="/ether" class="project-learn-more">Learn More <span class="material-symbols-sharp">keyboard_arrow_right</span></RouterLink>
+            </div>
+
+            <img class="project-image" :src="EtherImg" />
+        </div>
+    </div>
 </template>
 
 <style scoped>
@@ -104,5 +139,94 @@ main {
     font-size: 1.5rem;
 
     margin: 0;
+}
+
+.content {
+    padding: 0 40px;
+
+    margin-bottom: 100px;
+}
+
+.project {
+    display:  flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    overflow: hidden;
+
+    margin-top: -40px;
+    margin-bottom: 20px;
+
+    padding: 40px 0;
+}
+
+.project-image {
+    height: 200px;
+    max-width: 800px;
+
+    object-fit: cover;
+
+    flex-grow: 1;
+
+    opacity: 50%;
+    translate: 80px 0;
+
+    transition: opacity 100ms ease, translate 100ms ease;
+}
+
+.project:hover > .project-image {
+    opacity: 100%;
+    translate: 0px 0;
+}
+
+.project-text {
+    max-width: 600px;
+}
+
+.project-top {
+    display: flex;
+
+    align-items: baseline;
+
+    gap: 10px;
+
+    margin-bottom: 20px;
+}
+
+.project-title {
+    font-weight: 600;
+    font-size: 2rem;
+
+    margin: 0;
+}
+
+.project-learn-more {
+    display: flex;
+
+    align-items: center;
+
+    text-decoration: none;
+
+    color: var(--accent);
+}
+
+.project-learn-more > .material-symbols-sharp {
+    transition: translate 100ms ease;
+
+    color: var(--accent);
+}
+
+.project-learn-more:hover > .material-symbols-sharp {
+    translate: 4px 0px;
+}
+
+.project-flavor {
+    font-weight: 300;
+}
+
+.project-description {
+    margin: 0;
+    margin-bottom: 20px;
 }
 </style>
