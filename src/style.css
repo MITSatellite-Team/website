@@ -13,6 +13,18 @@
     color: var(--text);
 }
 
+html {
+    overscroll-behavior-y: none;
+}
+
+body {
+    margin: 0;
+
+    background: var(--background);
+
+    overscroll-behavior-y: none;
+}
+
 p {
     font-size: 1rem;
 }
@@ -33,10 +45,4 @@ button {
 
     background: var(--accent);
     color: var(--text-alt);
-}
-
-body {
-  margin: 0;
-
-  background: var(--background);
 }
