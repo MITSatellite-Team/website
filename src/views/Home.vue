@@ -59,7 +59,7 @@ import SscImg from '../assets/partners/ssc.png'
             <img class="project-image" :src="EtherImg" />
         </div>
 
-        <div style="height: 20px;"></div>
+        <div style="height: 40px;"></div>
 
         <h2>Partners</h2>
 
@@ -69,14 +69,117 @@ import SscImg from '../assets/partners/ssc.png'
             <img :src="SscImg" />
         </div>
 
-        <div style="height: 20px;"></div>
+        <div style="height: 80px;"></div>
 
         <h2 class="sponsors-title">Sponsor Oppurtunities</h2>
         <p>Support student space engineering and choose a sponsorship tier that fits your organization.</p>
+    
+        <table>
+            <thead>
+                <tr>
+                    <td></td>
+                    <td class="sponsor-label">LEO $2,500</td>
+                    <td class="sponsor-label">MEO $3,750</td>
+                    <td class="sponsor-label">GEO $5,000</td>
+                    <td class="sponsor-label">BEYOND $10,000</td>
+                </tr>
+            </thead>
+
+            <tr>
+                <td class="table-label">Custom message engraved on satellite frame</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><span class="material-symbols-sharp">check</span></td>
+            </tr>
+
+            <tr>
+                <td class="table-label">LinkedIn post</td>
+                <td></td>
+                <td></td>
+                <td><span class="material-symbols-sharp">check</span></td>
+                <td><span class="material-symbols-sharp">check</span></td>
+            </tr>
+
+            <tr>
+                <td class="table-label">Access to resume bank</td>
+                <td></td>
+                <td><span class="material-symbols-sharp">check</span></td>
+                <td><span class="material-symbols-sharp">check</span></td>
+                <td><span class="material-symbols-sharp">check</span></td>
+            </tr>
+
+            <tr>
+                <td class="table-label">Team info session</td>
+                <td></td>
+                <td><span class="material-symbols-sharp">check</span></td>
+                <td><span class="material-symbols-sharp">check</span></td>
+                <td><span class="material-symbols-sharp">check</span></td>
+            </tr>
+
+            <tr>
+                <td class="table-label">Social media posts (Instagram, Facebook)</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>3</td>
+            </tr>
+
+            <tr>
+                <td class="table-label">Logo placement (apparel, flyers, sponsorship banner, website)</td>
+                <td>Small</td>
+                <td>Medium</td>
+                <td>Large</td>
+                <td>Large</td>
+            </tr>
+        </table>
     </div>
 </template>
 
 <style scoped>
+tr:nth-child(even) { 
+    background: rgba(245, 213, 224, 0.05);
+}
+
+table {
+    border-collapse: collapse;
+
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead tr td {
+    border: none;
+    border-bottom: 1px solid white;
+
+    font-weight: 600;
+}
+
+td {
+    font-size: 1.2rem;
+
+    padding: 20px;
+}
+
+td:not(.table-label) {
+    text-align: center;
+}
+
+td .material-symbols-sharp {
+    color: var(--accent);
+
+    font-size: 2rem;
+}
+
+.table-label {
+    max-width: 400px;
+}
+
+.sponsor-label {
+    max-width: 80px;
+}
+
 .partners {
     display: flex;
     justify-content: space-around;
@@ -178,6 +281,10 @@ main {
     padding: 0 40px;
 
     margin-bottom: 100px;
+
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .project {
