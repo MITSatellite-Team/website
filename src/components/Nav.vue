@@ -18,9 +18,9 @@ function goHome() {
         </div>
         
         <div class="nav-links">
-            <RouterLink to="/projects">Projects</RouterLink>
+            <RouterLink to="/#active-projects">Projects</RouterLink>
             <RouterLink to="/about">About</RouterLink>
-            <RouterLink to="/wiki">Wiki</RouterLink>
+            <a href="https://wikis.mit.edu/confluence/pages/viewpage.action?pageId=324944308" target="blank">Wiki</a>
             <RouterLink to="/get-involved"><button class="nav-button">Get Involved</button></RouterLink>
         </div>
     </nav>
