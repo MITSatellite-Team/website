@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useRouter } from 'vue-router';
 import Logo from '../assets/satellite-logo.png'
+import { onMounted, onUnmounted, ref } from 'vue';
 
 const router = useRouter()
 
@@ -8,10 +9,24 @@ function goHome() {
     router.push('/')
 }
 
+const floating = ref(false)
+
+function onScroll() {
+  floating.value = window.scrollY > 0
+}
+
+onMounted(() => {
+  window.addEventListener('scroll', onScroll)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', onScroll)
+})
+
 </script>
 
 <template>
-    <nav>
+    <nav :class="{ 'floating': floating }">
         <div class="logo" @click="goHome">
             <img :src="Logo" />
             <span>MIT Satellite</span>
@@ -29,6 +44,7 @@ function goHome() {
 <style scoped>
 nav {
     position: sticky;
+    top: 0;
 
     display: flex;
 
@@ -41,6 +57,15 @@ nav {
     padding: 10px 20px;
 
     z-index: 1;
+
+    border-bottom: 1px transparent solid;
+
+    transition: background 100ms ease, border-bottom 100ms ease;
+}
+
+nav.floating {
+    background: var(--background);
+    border-bottom: 1px var(--text) solid;
 }
 
 .nav-links {

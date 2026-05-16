@@ -36,7 +36,7 @@ function goToGetInvolved() {
     <div style="height: 20px;"></div>
 
     <div class="content">
-        <div id="active-projects" style="translate: 0px -40px;"></div>
+        <div id="active-projects" style="translate: 0px -100px;"></div>
 
         <h2>Active Projects</h2>
 
