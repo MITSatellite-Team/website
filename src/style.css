@@ -53,6 +53,14 @@ button {
     color: var(--text-alt);
 
     cursor: pointer;
+
+    transition: background 100ms ease;
+}
+
+button:hover {
+    background: var(--text);
+
+    transition: none;
 }
 
 .material-symbols-sharp {

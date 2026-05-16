@@ -63,6 +63,15 @@ nav {
 
     font-size: 1rem;
     font-weight: 400;
+
+    transition: background 100ms ease, color 100ms ease;
+}
+
+.nav-button:hover {
+    background: var(--text);
+    color: var(--text-alt);
+
+    transition: none;
 }
 
 .logo {
