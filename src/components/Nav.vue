@@ -52,7 +52,15 @@ nav {
 }
 
 .nav-links > a {
-    text-decoration: none;
+    text-decoration: underline rgba(0, 0, 0, 0);
+
+    transition: text-decoration 100ms ease;
+}
+
+.nav-links > a:hover {
+    text-decoration: underline rgba(255, 255, 255, 1);
+
+    transition: none;
 }
 
 .nav-button {
