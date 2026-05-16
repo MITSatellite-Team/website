@@ -33,6 +33,8 @@ main {
     overflow: hidden;
 
     position: relative;
+
+    min-height: 60rem;
 }
 
 .gradients {
