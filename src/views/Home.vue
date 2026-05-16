@@ -1,6 +1,10 @@
 <script lang="ts" setup>
 import LeonirdImg from '../assets/leonird.jpg'
 import EtherImg from '../assets/ether.jpg'
+
+import EdgertonImg from '../assets/partners/edgerton.png'
+import AeroImg from '../assets/partners/aero.png'
+import SscImg from '../assets/partners/ssc.png'
 </script>
 
 <template>
@@ -54,10 +58,39 @@ import EtherImg from '../assets/ether.jpg'
 
             <img class="project-image" :src="EtherImg" />
         </div>
+
+        <div style="height: 20px;"></div>
+
+        <h2>Partners</h2>
+
+        <div class="partners">
+            <img :src="EdgertonImg" />
+            <img :src="AeroImg" />
+            <img :src="SscImg" />
+        </div>
+
+        <div style="height: 20px;"></div>
+
+        <h2 class="sponsors-title">Sponsor Oppurtunities</h2>
+        <p>Support student space engineering and choose a sponsorship tier that fits your organization.</p>
     </div>
 </template>
 
 <style scoped>
+.partners {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    gap: 100px;
+
+    margin: 80px 0;
+}
+
+.sponsors-title {
+    margin-bottom: 0;
+}
+
 main {
     background-image: url('../assets/earth-hero.png');
     background-size: cover;
