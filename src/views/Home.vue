@@ -7,6 +7,7 @@ import AeroImg from '../assets/partners/aero.png'
 import SscImg from '../assets/partners/ssc.png'
 import SponsorTable from '../components/SponsorTable.vue'
 import { useRouter } from 'vue-router'
+import GoLink from '../components/GoLink.vue'
 
 const router = useRouter()
 
@@ -49,7 +50,7 @@ function goToGetInvolved() {
 
                 <p class="project-description">Two-phase CubeSat program centered on solar occultation trace-gas mapping, with an outreach component.</p>
 
-                <RouterLink to="/leonird" class="project-learn-more">Learn More <span class="material-symbols-sharp">keyboard_arrow_right</span></RouterLink>
+                <GoLink to="/leonird">Learn More</GoLink>
             </div>
 
             <img class="project-image" :src="LeonirdImg" />
@@ -64,7 +65,7 @@ function goToGetInvolved() {
 
                 <p class="project-description">Cryogenic propellant mixing payload aimed at reducing temperature stratification inside cryogenic tanks and enabling near zero boil-off.</p>
             
-                <RouterLink to="/ether" class="project-learn-more">Learn More <span class="material-symbols-sharp">keyboard_arrow_right</span></RouterLink>
+                <GoLink to="/ether">Learn More</GoLink>
             </div>
 
             <img class="project-image" :src="EtherImg" />
@@ -255,26 +256,6 @@ main {
     font-size: 2rem;
 
     margin: 0;
-}
-
-.project-learn-more {
-    display: flex;
-
-    align-items: center;
-
-    text-decoration: none;
-
-    color: var(--accent);
-}
-
-.project-learn-more > .material-symbols-sharp {
-    transition: translate 100ms ease;
-
-    color: var(--accent);
-}
-
-.project-learn-more:hover > .material-symbols-sharp {
-    translate: 4px 0px;
 }
 
 .project-flavor {

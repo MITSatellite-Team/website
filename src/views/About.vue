@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import GoLink from '../components/GoLink.vue';
+
 
 </script>
 
@@ -43,6 +45,8 @@
         <p>
             We believe in learning by doing. Every member has the opportunity to work on actual hardware, contribute to mission-critical systems, and gain experience that directly translates to professional aerospace careers. Whether you're writing your first line of flight software or designing your first circuit board, our experienced members are here to guide and support you. 
         </p>
+
+        <GoLink to="/get-involved">Join Us</GoLink>
     </main>
 </template>
 
