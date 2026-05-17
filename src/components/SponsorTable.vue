@@ -12,53 +12,55 @@
             </tr>
         </thead>
 
-        <tr>
-            <td class="table-label">Custom message engraved on satellite frame</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td><span class="material-symbols-sharp">check</span></td>
-        </tr>
+        <tbody>
+            <tr>
+                <td class="table-label">Custom message engraved on satellite frame</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><span class="material-symbols-sharp">check</span></td>
+            </tr>
 
-        <tr>
-            <td class="table-label">LinkedIn post</td>
-            <td></td>
-            <td></td>
-            <td><span class="material-symbols-sharp">check</span></td>
-            <td><span class="material-symbols-sharp">check</span></td>
-        </tr>
+            <tr>
+                <td class="table-label">LinkedIn post</td>
+                <td></td>
+                <td></td>
+                <td><span class="material-symbols-sharp">check</span></td>
+                <td><span class="material-symbols-sharp">check</span></td>
+            </tr>
 
-        <tr>
-            <td class="table-label">Access to resume bank</td>
-            <td></td>
-            <td><span class="material-symbols-sharp">check</span></td>
-            <td><span class="material-symbols-sharp">check</span></td>
-            <td><span class="material-symbols-sharp">check</span></td>
-        </tr>
+            <tr>
+                <td class="table-label">Access to resume bank</td>
+                <td></td>
+                <td><span class="material-symbols-sharp">check</span></td>
+                <td><span class="material-symbols-sharp">check</span></td>
+                <td><span class="material-symbols-sharp">check</span></td>
+            </tr>
 
-        <tr>
-            <td class="table-label">Team info session</td>
-            <td></td>
-            <td><span class="material-symbols-sharp">check</span></td>
-            <td><span class="material-symbols-sharp">check</span></td>
-            <td><span class="material-symbols-sharp">check</span></td>
-        </tr>
+            <tr>
+                <td class="table-label">Team info session</td>
+                <td></td>
+                <td><span class="material-symbols-sharp">check</span></td>
+                <td><span class="material-symbols-sharp">check</span></td>
+                <td><span class="material-symbols-sharp">check</span></td>
+            </tr>
 
-        <tr>
-            <td class="table-label">Social media posts (Instagram, Facebook)</td>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>3</td>
-        </tr>
+            <tr>
+                <td class="table-label">Social media posts (Instagram, Facebook)</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>3</td>
+            </tr>
 
-        <tr>
-            <td class="table-label">Logo placement (apparel, flyers, sponsorship banner, website)</td>
-            <td>Small</td>
-            <td>Medium</td>
-            <td>Large</td>
-            <td>Large</td>
-        </tr>
+            <tr>
+                <td class="table-label">Logo placement (apparel, flyers, sponsorship banner, website)</td>
+                <td>Small</td>
+                <td>Medium</td>
+                <td>Large</td>
+                <td>Large</td>
+            </tr>
+        </tbody>
     </table>
 </template>
 
