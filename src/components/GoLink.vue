@@ -1,9 +1,10 @@
 <script setup lang="ts">
-defineProps<{ to: string }>()
+defineProps<{ to: string, external?: boolean }>()
 </script>
 
 <template>
-    <RouterLink :to="to"> <slot /> <span class="material-symbols-sharp">keyboard_arrow_right</span></RouterLink>
+    <RouterLink v-if="!external" :to="to"> <slot /> <span class="material-symbols-sharp">keyboard_arrow_right</span></RouterLink>
+    <a v-if="external" :href="to" target="blank"> <slot /> <span class="material-symbols-sharp">keyboard_arrow_right</span></a>
 </template>
 
 <style scoped>
