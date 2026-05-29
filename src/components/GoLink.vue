@@ -1,10 +1,10 @@
 <script setup lang="ts">
-defineProps<{ to: string, external?: boolean }>()
+defineProps<{ to: string, external?: boolean, size?: 'normal' | 'large' }>()
 </script>
 
 <template>
-    <RouterLink v-if="!external" :to="to"> <slot /> <span class="material-symbols-sharp">keyboard_arrow_right</span></RouterLink>
-    <a v-if="external" :href="to" target="blank"> <slot /> <span class="material-symbols-sharp">keyboard_arrow_right</span></a>
+    <RouterLink v-if="!external" :to="to" :style="size === 'large' ? 'font-size: 1.5rem' : ''"> <slot /> <span class="material-symbols-sharp" :style="size === 'large' ? 'font-size: 36px' : ''">keyboard_arrow_right</span></RouterLink>
+    <a v-if="external" :href="to" target="blank" :style="size === 'large' ? 'font-size: 1.5rem' : ''"> <slot /> <span class="material-symbols-sharp" :style="size === 'large' ? 'font-size: 36px' : ''">keyboard_arrow_right</span></a>
 </template>
 
 <style scoped>

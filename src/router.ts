@@ -3,11 +3,13 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from './views/Home.vue'
 import About from './views/About.vue'
 import GetInvolved from './views/GetInvolved.vue'
+import Leonird from './views/Leonird.vue'
 
 const routes = [
   { path: '/', component: Home },
   { path: '/about', component: About },
   { path: '/get-involved', component: GetInvolved },
+  { path: '/leonird', component: Leonird },
 ]
 
 export const router = createRouter({
