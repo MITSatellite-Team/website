@@ -31,7 +31,7 @@ import { useTemplateRef, watch } from 'vue';
 				The Low Earth Orbit Near-Infrared Device, is MIT Satellite Team's flagship mission. The long-term vision is a CubeSat mission that uses NIR solar occultation and limb sounding to observe Earth's atmosphere along the edge of the planet during orbital sunrise and sunset. In Spring 2026, we completed a high-altitude balloon flight to test flight computer integration, telemetry, tracking, recovery, and operations.
 			</p>
 
-			<GoLink to="/leonird#about" size="large">Read More</GoLink>
+			<GoLink to="#about" size="large">Read More</GoLink>
         </div>
     </div>
 

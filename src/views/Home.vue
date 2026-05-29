@@ -1,13 +1,15 @@
 <script lang="ts" setup>
 import LeonirdImg from '../assets/leonird.jpg'
 import EtherImg from '../assets/ether.jpg'
-
 import EdgertonImg from '../assets/partners/edgerton.png'
 import AeroImg from '../assets/partners/aero.png'
 import SscImg from '../assets/partners/ssc.png'
+import Hero from '../assets/hero.mp4'
+
 import SponsorTable from '../components/SponsorTable.vue'
-import { useRouter } from 'vue-router'
 import GoLink from '../components/GoLink.vue'
+
+import { useRouter } from 'vue-router'
 
 const router = useRouter()
 
@@ -19,6 +21,8 @@ function goToGetInvolved() {
 
 <template>
     <main>
+		<video :src="Hero" autoplay muted="true" loop="true" ref="video" />
+
         <div class="gradients">
             <div class="corner-gradient"></div>
             <div class="bottom-gradient"></div>
@@ -112,9 +116,6 @@ function goToGetInvolved() {
 }
 
 main {
-    background-image: url('../assets/earth-hero.png');
-    background-size: cover;
-
     width: 100vw;
     height: 100vh;
 
@@ -123,6 +124,12 @@ main {
     position: relative;
 
     min-height: 60rem;
+}
+
+main > video {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .gradients {
