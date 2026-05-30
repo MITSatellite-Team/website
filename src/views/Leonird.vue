@@ -5,7 +5,7 @@ import HabBalloon from '../assets/leonird/hab-baloon.jpg'
 import Earth from '../assets/leonird/earth.png'
 import Assembly from '../assets/leonird/assembly.jpg'
 
-import { useTemplateRef, watch } from 'vue';
+// import { useTemplateRef, watch } from 'vue';
 
 // const video = useTemplateRef('video')
 // watch(video, () => {

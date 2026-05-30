@@ -2,12 +2,10 @@
 import GoLink from '../components/GoLink.vue';
 import Hero from '../assets/ether/hero.mp4'
 import Diagram1 from '../assets/ether/diagram-1.jpg'
-import Diagram2 from '../assets/ether/diagram-2.jpg'
-import Diagram3 from '../assets/ether/diagram-3.jpg'
 import Codr from '../assets/ether/codr.jpg'
 import Poster from '../assets/ether/poster.jpg'
 
-import { useTemplateRef, watch } from 'vue';
+// import { useTemplateRef, watch } from 'vue';
 
 // const video = useTemplateRef('video')
 // watch(video, () => {
