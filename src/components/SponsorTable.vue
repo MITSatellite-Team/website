@@ -66,11 +66,15 @@
 
 <style scoped>
 tr:nth-child(even) { 
-    background: rgba(245, 213, 224, 0.05);
+    background: rgba(245, 213, 224, 0.1);
 }
 
 table {
     border-collapse: collapse;
+}
+
+tbody {
+    border: 1px solid rgba(245, 213, 224, 0.1);
 }
 
 thead tr td {

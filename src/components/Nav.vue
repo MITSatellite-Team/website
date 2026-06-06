@@ -77,13 +77,13 @@ nav.floating {
 }
 
 .nav-links > a {
-    text-decoration: underline rgba(0, 0, 0, 0);
+    text-decoration: none;
 
-    transition: text-decoration 100ms ease;
+    transition: color 100ms ease;
 }
 
 .nav-links > a:hover {
-    text-decoration: underline rgba(255, 255, 255, 1);
+    color: var(--accent);
 
     transition: none;
 }
