@@ -41,19 +41,19 @@ import Poster from '../assets/ether/poster.jpg'
         <h2>What is ETHER?</h2>
 
         <p>
-			ETHER, the Low Earth Orbit Near-Infrared Device, is MIT Satellite Team's flagship mission.
+			ETHER is the MIT Satellite Team's microgravity fluids research project.
 		</p>
 
 		<p>
-			The long-term vision is a CubeSat mission that uses NIR solar occultation and limb sounding to observe Earth's atmosphere along the edge of the planet during orbital sunrise and sunset. Before building toward the full science mission, the team is proving the core systems step by step.
+			In 2025, MIT Satellite team's chief engineer, Pranav Bala, won NASA's Human Lander Challenge. Ether was a subsystem of this project, focusing on the development of a cryogenic fluid experiment characterizing temperature gradients, pressure behavior, and fluid mixing within a tank equipped with modified baffle systems.
 		</p>
 
 		<p>
-			In Spring 2026, we completed a high-altitude balloon flight to test flight computer integration, telemetry, tracking, recovery, and operations.
+			The long-term vision is to develop and validate technologies that enable long-duration cryogenic propellant storage in space by reducing thermal stratification and propellant boil-off inside spacecraft tanks. ETHER is a combination of experimental testing, CFD modeling, and flight demonstrations, It investigates how new fluid management techniques like baffles can improve the efficiency of long-distance space missions.
 		</p>
 
 		<p>
-			Our next milestone is LEONIRD I, a 1U systems-proof satellite designed to demonstrate the avionics, communications, ground-station, software, and operations architecture needed for future LEONIRD missions. We are currently targeting launch readiness within the next 18 months.
+			Our next milestone is a microgravity flight demonstration, where ETHER will collect thermal and pressure data during repeated periods of reduced gravity to evaluate the effectiveness of the baffle design in reducing stratification. These results will guide the development of future orbital experiments and ultimately support technologies for cryogenic propellant storage.
 		</p>
 
 		<img :src="Codr" class="codr-image"/>
