@@ -4,7 +4,7 @@ import EtherImg from '../assets/ether.jpg'
 import EdgertonImg from '../assets/partners/edgerton.png'
 import AeroImg from '../assets/partners/aero.png'
 import SscImg from '../assets/partners/ssc.png'
-import Hero from '../assets/hero.mp4'
+import Hero from '../assets/hero-optimized.webm'
 
 import SponsorTable from '../components/SponsorTable.vue'
 import GoLink from '../components/GoLink.vue'

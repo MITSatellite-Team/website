@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import GoLink from '../components/GoLink.vue';
-import LeonirdLaunchVideo from '../assets/leonird/leonird-hab-launch.mp4'
+import LeonirdLaunchVideo from '../assets/leonird/leonird-hab-launch-optimized.webm'
 import HabBalloon from '../assets/leonird/hab-baloon.jpg'
 import Earth from '../assets/leonird/earth.png'
 import Assembly from '../assets/leonird/assembly.jpg'

@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import GoLink from '../components/GoLink.vue';
-import Hero from '../assets/ether/hero.mp4'
+import Hero from '../assets/ether/hero-optimized.webm'
 import Diagram1 from '../assets/ether/diagram-1.jpg'
 import Codr from '../assets/ether/codr.jpg'
 import Poster from '../assets/ether/poster.jpg'
