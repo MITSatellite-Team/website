@@ -273,4 +273,16 @@ main > video {
     margin: 0;
     margin-bottom: 20px;
 }
+
+@media (max-width: 900px) {
+    .main-content > h1 {
+        font-size: 4rem;
+    }
+
+    .main-content > p {
+        max-width: calc(100% - 60px);
+
+        font-size: 1.2rem;
+    }
+}
 </style>

@@ -125,4 +125,16 @@ nav.floating {
     font-weight: 500;
     font-size: 1.6rem;
 }
+
+@media (max-width: 900px) {
+    .logo > span {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    .nav-links {
+        gap: 30px;
+    }
+}
 </style>
