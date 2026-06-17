@@ -6,7 +6,7 @@ import GoLink from '../components/GoLink.vue';
     <main>
         <h2>Get Involved</h2>
 
-        <p>Any MIT undergraduate can join. No prior satellite experience is required. We are deliberately interdisciplinary and want students across majors.</p>
+        <p>Any MIT undergraduate can join! No prior satellite experience is required. We are deliberately interdisciplinary and want students across majors.</p>
         
         <img class="involved-photo" src="../assets/involved.jpg" />
 
@@ -15,14 +15,6 @@ import GoLink from '../components/GoLink.vue';
         <p>1. Fill out the interest form to share your project and subteam preferences.</p>
         <p>2. Attend a general body meeting. We will help you join Slack and connect you with team leads.</p>
         <p>3. Complete the member form (separate from the onboarding interest form). The link is pinned in the general Slack channel.</p>
-
-        <h3>Expectations</h3>
-
-        <p>
-        Members are expected to: attend weekly general body meetings; attend weekly subteam meeting(s); join at least one subteam for at least one project.
-
-        Time commitment depends on the point in the semester. During busy seasons such as design reviews, the time demand increases.
-        </p>
 
         <h3>Resources to Get Started</h3>
         
