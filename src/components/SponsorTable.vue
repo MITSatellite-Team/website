@@ -233,6 +233,9 @@ tr:nth-child(even) {
 
 table {
     border-collapse: collapse;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
 tbody {
