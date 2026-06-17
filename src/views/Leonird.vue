@@ -16,7 +16,7 @@ import Assembly from '../assets/leonird/assembly.jpg'
 
 <template>
 	<div class="hero">
-		<video :src="LeonirdLaunchVideo" autoplay muted="true" loop="true" ref="video" />
+		<video :src="LeonirdLaunchVideo" autoplay muted loop playsinline ref="video" />
 
 		<div class="gradients">
             <div class="corner-gradient"></div>

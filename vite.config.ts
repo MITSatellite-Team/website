@@ -24,5 +24,4 @@ export default defineConfig({
             logStats: true,
         }),
     ],
-    base: '/preview/'
 })

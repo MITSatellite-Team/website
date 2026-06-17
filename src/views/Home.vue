@@ -21,7 +21,7 @@ function goToGetInvolved() {
 
 <template>
     <main>
-		<video :src="Hero" autoplay muted="true" loop="true" ref="video" />
+		<video :src="Hero" autoplay muted loop playsinline ref="video" />
 
         <div class="gradients">
             <div class="corner-gradient"></div>
