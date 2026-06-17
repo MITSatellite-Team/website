@@ -137,4 +137,10 @@ nav.floating {
         gap: 30px;
     }
 }
+
+@media (max-width: 450px) {
+    .nav-button {
+        display: none;
+    }
+}
 </style>

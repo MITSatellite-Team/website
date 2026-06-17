@@ -111,6 +111,12 @@ function goToGetInvolved() {
     margin: 80px 0;
 }
 
+.partners > img {
+    width: 400px;
+    max-width: calc(100vw - 80px);
+    object-fit: contain;
+}
+
 .sponsors-title {
     margin-bottom: 0;
 }
@@ -283,6 +289,18 @@ main > video {
         max-width: calc(100% - 60px);
 
         font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .main-content > h1 {
+        font-size: 2.5rem;
+    }
+
+    .main-content > p {
+        max-width: calc(100% - 60px);
+
+        font-size: 1rem;
     }
 }
 </style>
