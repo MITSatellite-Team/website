@@ -5,6 +5,7 @@ import EdgertonImg from '../assets/partners/edgerton.png'
 import AeroImg from '../assets/partners/aero.png'
 import SscImg from '../assets/partners/ssc.png'
 import Hero from '../assets/hero-optimized.webm'
+import HeroFallback from '../assets/hero-fallback.jpg'
 
 import SponsorTable from '../components/SponsorTable.vue'
 import GoLink from '../components/GoLink.vue'
@@ -136,6 +137,8 @@ main > video {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+
+    background: url('../assets/hero-fallback.jpg');
 }
 
 .gradients {
