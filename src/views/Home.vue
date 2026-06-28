@@ -88,7 +88,7 @@ function goToGetInvolved() {
 
         <div style="height: 80px;"></div>
 
-        <h2 class="sponsors-title">Sponsor Oppurtunities</h2>
+        <h2 class="sponsors-title">Sponsor Opportunities</h2>
         <p>Support student space engineering and choose a sponsorship tier that fits your organization.</p>
     
         <SponsorTable class="sponsor-table"/>
