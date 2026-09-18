@@ -78,6 +78,27 @@ function goToGetInvolved() {
 
         <div style="height: 40px;"></div>
 
+        <h2>Blogs</h2>
+
+        <div class="project">
+            <div class="project-text">
+                <div class="project-top">
+                    <h3 class="project-title">MIT Satellite Team's Grand Debut</h3>
+                </div>
+
+                <p class="project-description">
+                    Hey everyone! With the 2026 Edgerton Showcase, comes our first post.
+                    Check it out to find out more about us, as well as a special announcement for everyone wanting to track our progress!
+                </p>
+
+                <GoLink to="/blogs/grand-debut">Read More</GoLink>
+            </div>
+
+            <img class="project-image" src="./blogs/grand-debut/header.jpg" />
+        </div>
+
+        <div style="height: 40px;"></div>
+
         <h2>Partners</h2>
 
         <div class="partners">
@@ -250,7 +271,7 @@ main > video {
 
 .project:hover > .project-image {
     opacity: 100%;
-    translate: 0px 0;
+    translate: 20px 0;
 }
 
 .project-text {
