@@ -7,6 +7,7 @@ import Leonird from './views/Leonird.vue'
 import Ether from './views/Ether.vue'
 
 import GrandDebutBlog from './views/blogs/grand-debut/Blog.vue'
+import Orbit1Blog from './views/blogs/orbit-1/Blog.vue'
 
 const routes = [
   { path: '/', component: Home },
@@ -15,6 +16,7 @@ const routes = [
   { path: '/leonird', component: Leonird },
   { path: '/ether', component: Ether },
   { path: '/blogs/grand-debut', component: GrandDebutBlog },
+  { path: '/blogs/orbit-1', component: Orbit1Blog },
 ]
 
 export const router = createRouter({

@@ -96,6 +96,23 @@ function goToGetInvolved() {
             <img class="project-image" src="./blogs/grand-debut/header.jpg" />
         </div>
 
+        <div class="project">
+            <div class="project-text">
+                <div class="project-top">
+                    <h3 class="project-title">In Orbit Issue 1 - One Year: One Launch</h3>
+                </div>
+
+                <p class="project-description">
+                    How a group of MIT students launched a High-Altitude Balloon in just a month.
+                    Read the first issue of our monthly Newsletter "In Orbit."
+                </p>
+
+                <GoLink to="/blogs/orbit-1">Read More</GoLink>
+            </div>
+
+            <img class="project-image" src="./blogs/orbit-1/header.png" />
+        </div>
+
         <div style="height: 40px;"></div>
 
         <h2>Partners</h2>
