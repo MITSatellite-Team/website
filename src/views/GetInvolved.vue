@@ -41,7 +41,7 @@ main {
 
     min-height: calc(100vh - 230px);
 
-    max-width: 1000px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
