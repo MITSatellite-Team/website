@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import GoLink from '../../../components/GoLink.vue';
 </script>
 
 <template>
